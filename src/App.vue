@@ -2,6 +2,9 @@
   <div id="app">
    
     <!-- header -->
+    <header>
+      <img src="./assets/spotify-logo.png" alt="logo">
+    </header>
     <!-- / header -->
 
     <!-- main -->
@@ -39,14 +42,27 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header {
+    height: 50px;
+    background: rgb(53, 61, 71);
+    
+
+    img {
+      height: 30px;
+      margin: 10px;
+      
+    }
+  }
+
 
 
 </style>
