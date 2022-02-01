@@ -2,7 +2,8 @@
     
     <main>
 
-        <div class="flex-box">
+        <div
+        class="flex-box">
 
             <disk-box 
             v-for="(disk, index) in disks"
