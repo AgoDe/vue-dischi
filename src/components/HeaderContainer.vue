@@ -1,5 +1,6 @@
 <template>
     <header>
+        
         <img src="../assets/spotify-logo.png" alt="logo">
 
         <div class="input-box">
@@ -37,7 +38,6 @@
             </select>
             </div>
        
-
     </header>
 </template>
 
@@ -47,18 +47,12 @@ export default {
         return {
            selectedGenre: '',
            selectedArtist: '',
-
-
         }
     },
     props: {
         genre: Array,
         artists: Array,
     },
-    methods: {
-      
-    }
-    
 }
 </script>
 
@@ -71,7 +65,6 @@ export default {
     display: flex;
     justify-content: space-between;
     
-
     img {
       height: 30px;
       margin: 10px;
@@ -80,18 +73,12 @@ export default {
     .input-box {
         padding: 15px;
         color: white;
-        
 
         label {
             margin-left: 20px;
             margin-right: 5px;
         }
-
-
-
     }
-
-
   }
 
 </style>

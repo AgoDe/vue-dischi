@@ -11,9 +11,9 @@
     <!-- / header -->
 
     <!-- main -->
-      <main-container
-      :disks="generalFilter"
-      />
+    <main-container
+    :disks="generalFilter"
+    />
     <!-- / main -->
 
   </div>
@@ -52,10 +52,7 @@ export default {
       const artistArray = this.disksSelected.map((element) => {
         return element.author
       })
-      this.musicalArtists = [...new Set(artistArray)];
-
-
-      
+      this.musicalArtists = [...new Set(artistArray)];   
     },
 
     filterByArtist: function(selected) {
@@ -75,9 +72,7 @@ export default {
       })
       this.musicalGenre = [...new Set(genreArray)];
 
-    
     });
-
   }
 }
 </script>
@@ -91,9 +86,5 @@ export default {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
-
- 
-
-
 
 </style>
